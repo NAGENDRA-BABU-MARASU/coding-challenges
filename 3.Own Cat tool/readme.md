@@ -8,6 +8,10 @@ Written in: Python <img height="25px" width="22px" style="margin-bottom: -7px" s
 It can be used to print the standard input contents or file contents to standard output.
 
 ### Options available:
+* **Help** : displays the command line options available
+
+       $ python3 cccat.py -h
+
 * **-** : if - is given or no options is given input is taken from standard input.
 
        $ python3 cccat.py -

@@ -5,7 +5,7 @@ It is part of the coding challenge :
 
 Written in: Python <img height="25px" width="22px" style="margin-bottom: -7px" src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" width="20px"/>
 
-It can be used to print the standard input contents or file contents to standard output.
+It can be used to print the specific data from standard input contents or file contents to standard output.
 
 ### Options available:
 * **Help** : displays the command line options available
@@ -17,7 +17,7 @@ It can be used to print the standard input contents or file contents to standard
        $ python3 cccut.py -f1 -
     or 
 
-       $ head -n3 test.txt | python3 cccut.py 
+       $ head -n3 test.txt | python3 cccut.py -f1 
 * **-f1(s)** : displays the contents of the given column of each row to standard output.Here first field (1).
   
        $ python3 cccut.py -f1 sample.tsv 
